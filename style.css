@@ -1,0 +1,87 @@
+/*Colors and fonts*/
+
+body{
+	background-color: rgb(100, 100, 100);
+	color: rgb(200, 200, 200);
+	font-family: Helvetica;
+	font-size: 17px;
+}
+
+h1{
+	color: black;
+    font-size: 35px;
+}
+
+h2{
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: dimgrey;
+	front-size: 20px;
+}
+
+a:hover{
+	color: slategrey;
+}
+#photo{
+	width: 500px;
+}
+.img-circle{ /* select all elements with the class="img-circle" */ 
+border-radius: 80%; 
+}
+
+/*Custom design with class*/
+
+@media (max-widht: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-widht: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.btn-blue{
+	background-color: black;
+	color: lightyellow;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue{
+	background-color: black;
+	color:  whitesmoke;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	front-size: 50px;
+	color: greenyellow;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color:  greenyellow;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+} 
+
+cen
+
